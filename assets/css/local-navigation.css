@@ -1,0 +1,6 @@
+/* Keep the existing branded header and footer consistent across every page. */
+.navbar_hamburger,
+.w-webflow-badge { display: none !important; }
+.navbar_logo img { display: block; width: auto; height: 100%; max-width: none; object-fit: contain; }
+a[aria-disabled="true"] { cursor: default !important; pointer-events: none !important; }
+.local-form-notice { color: var(--grey-200, #ddd); margin-top: 1rem; }
